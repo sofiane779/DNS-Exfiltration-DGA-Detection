@@ -17,9 +17,3 @@ This directory contains the visual proof of the detection logic implemented in S
 * **Key Evidence:** This is the "Money Shot". It shows the final 10 high-fidelity events where both length and complexity thresholds were met. It includes the source IPs, timestamps, and the specific suspicious queries.
 
 ---
-
-## How to reproduce these results
-1. Load the **BOTS v3 dataset** into your Splunk environment.
-2. Set the time range to **"All time"** (as the dataset is historical).
-3. Copy and paste the SPL provided in the `DETECTION_LOGIC.md` file.
-4. Compare the output with the screenshots provided in this folder.
