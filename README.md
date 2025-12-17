@@ -52,18 +52,25 @@ Since DGA domains often use high-entropy strings (mix of numbers and random lett
 
 ## Repository Structure
 
+
 ```text
-├── DETECTION_LOGIC.md
-├── EVIDENCE/
-│   ├── DNS_MASTER_RESULTS.png      <-- Proof of final detection
-│   ├── DNS_STATISTICAL_TRIAGE.png  <-- Length distribution analysis
-│   └── DNS_COMPLEXITY_RULE.png     <-- Entropy scoring proof
-├── LICENSE
-└── README.md
+├── DETECTION_LOGIC.md       
+├── LICENSE                   
+├── README.md                 
+└── EVIDENCE/                 
+    ├── MASTER.png
+    ├── DNS_STATISTICAL_TRIAGE.png
+    └── DNS_COMPLEXITY_RULE.png
 ```
 
+## How to Reproduce
 
+To validate this detection logic, follow these steps:
 
+1. **Dataset:** Access the **Splunk BOTS v3** dataset.
+2. **Time Range:** Set the picker to **"All time"** (historical data).
+3. **Execution:** Copy the SPL query found in [DETECTION_LOGIC.md](./DETECTION_LOGIC.md).
+4. **Verification:** Compare your results with the provided [Master Evidence](./EVIDENCE/MASTER.png).
 
 
 
