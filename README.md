@@ -60,7 +60,7 @@ Since DGA domains often use high-entropy strings (mix of numbers and random lett
 └── EVIDENCE/                 
     ├── MASTER.png
     ├── DNS_STATISTICAL_TRIAGE.png
-    └── DNS_COMPLEXITY_RULE.png
+    └── DNS_COMPLEXITY_SCORE_RULE.png
 ```
 
 ## How to Reproduce
